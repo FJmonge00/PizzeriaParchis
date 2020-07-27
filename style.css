@@ -14,7 +14,6 @@ body {
   background-size: cover;
   color: white;
 }
-@media screen and (min-width: 480px) {
   body {
     background-image: url(images/menu-3206749_1920.jpg);
     background-image: no-repeat;
@@ -26,7 +25,86 @@ body {
     background-size: cover;
     color: white;
   }
-}
+  /* #nav-menu {
+    display: flex;
+    justify-content: center;
+  }
+  #nav-menu a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    font-weight:bold;
+    font-size: 1.5em;
+  }
+  #nav-menu a:hover{
+    background-color:rgb(0, 78, 180);
+    color: rgb(255, 94, 0);
+    text-decoration: none;
+    display: block;
+    transition: 1.5s;
+  } */
+    .CuerpoWeb {
+      text-align: center;
+      display: block;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  .ContenedorProductos {
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-left: 50%; */
+  }
+  .ContenedorProductos div {
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+  }
+  .Pizza {
+    background-color: #b2c0b3;
+    font-size: 1.8em;
+    width: 420px;
+  }
+  .BRoll {
+    background-color: #a07646;
+    font-size: 1.8em;
+    width: 420px;
+  }
+  .BArte {
+    background-color: #e88b24;
+    font-size: 1.8em;
+    width: 420px;
+  }
+  .Mexi {
+    background-color: #b74926;
+    font-size: 1.8em;
+    width: 420px;
+  }
+  .Cazu {
+    background-color: #86291a;
+    font-size: 1.8em;
+    width: 420px;
+  }
+  .Hambu {
+    background-color: #b2c0b3;
+    font-size: 1.8em;
+    width: 420px;
+  }
+  .Comple {
+    background-color: #a07646;
+    font-size: 1.8em;
+    width: 420px;
+  }
+  .Postre {
+    background-color: #e88a26;
+    font-size: 1.8em;
+    width: 420px;
+  }
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   height: 50%;
@@ -73,10 +151,9 @@ body {
   background-color: #555;
   color: white;
 }
-footer {
-  background-color: peru;
-}
 header {
+  font-size: 2.2em;
+  text-align: center;
   margin: 10px 0;
   color: #000;
   background-color: #fff;
@@ -84,16 +161,16 @@ header {
   display: block;
   box-sizing: inherit;
 }
-footer
-{
-  margin: 10px 0;
-  color: #000;
-  background-color: #fff;
-  padding: 0.01em 16px;
-  display: block;
-  box-sizing: inherit;
+#nav-menu-movil {
+  display: none;
 }
-/* Productos*/
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 480px) {
+
   .CuerpoWeb {
     text-align: center;
     display: block;
@@ -102,7 +179,7 @@ footer
     justify-content: center;
   }
 .ContenedorProductos {
-  margin-top: -12%;
+  margin-top: 12px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -111,6 +188,7 @@ footer
 }
 .ContenedorProductos div {
   border-radius: 15px;
+  font-size: 1.2em;
   padding: 5px;
 }
 .Pizza {
@@ -145,7 +223,6 @@ footer
   background-color: #e88a26;
   width: 220px;
 }
-/* Menu Movil */
 #nav-menu-pc{
   display: none;
 }
@@ -193,7 +270,8 @@ footer
 #menu-desple li p {
   padding: 10 15px;
 }
-img {
-  width: 100%;
-  height: auto;
+#nav-menu {
+  display: none;
 }
+}
+/* Menu Movil */
