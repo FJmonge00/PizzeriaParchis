@@ -53,6 +53,7 @@ body {
   text-align: center;
   cursor: pointer;
   font-size: 1.2em;
+  color: #000
 }
 .hero-text div a:hover{
   background-color: #555;
@@ -62,44 +63,70 @@ footer {
   background-color: peru;
 }
 header {
-  background-color: peru;
+  margin: 10px 0;
+  color: #000;
+  background-color: #fff;
+  padding: 0.01em 16px;
+  display: block;
+  box-sizing: inherit;
 }
 /* Productos*/
+  .CuerpoWeb {
+    text-align: center;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.ContenedorProductos {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 50%;
+}
 .Pizza {
   background-color: red;
+  width: 500px;
 }
 .BRoll {
   background-color: green;
+  width: 150px;
 }
 .BArte {
   background-color: yellow;
+  width: 150px;
 }
 .Mexi {
   background-color: darkblue;
+  width: 150px;
 }
 .Cazu {
-  background-color: red;
+  background-color: peru;
+  width: 150px;
 }
 .Hambu {
-  background-color: red;
+  background-color: purple;
+  width: 150px;
 }
 .Comple {
-  background-color: red;
+  background-color: navy;
+  width: 150px;
 }
 .Postre {
-  background-color: red;
+  background-color: palegreen;
+  width: 150px;
 }
 /* Menu Movil */
 #nav-menu-pc{
   display: none;
 }
 #nav-menu-movil{
-  /* margin: auto; */
   width: 210px;
-  /* margin-right: 100%; */
   display: block;
   align-items: left;
   margin-bottom: 35%;
+  
 }
 #nav-menu-movil ul,li{
   list-style: none;
@@ -113,8 +140,8 @@ header {
   font-weight:bold;
 }
 #menu-desple *:hover{
-  background-color:rgb(6, 21, 120);
-  color: white;
+  background-color:white;
+  color: black;
   text-decoration: none;
   padding: 10px 15px;
   display: block;
@@ -123,12 +150,14 @@ header {
   display: none;
   position: absolute;
   min-width: 110px;
+  border: white solid 2px;
 }
 #menu-desple li:hover > ul {
   display: block
 }
 #menu-desple > li {
   float: left;
+  border: white solid 2px;
 }
 .menu ,ul {
   padding-left: 15px;
