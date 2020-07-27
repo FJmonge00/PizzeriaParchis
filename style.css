@@ -80,42 +80,44 @@ header {
     justify-content: center;
   }
 .ContenedorProductos {
+  margin-top: 10%;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 50%;
+  /* margin-left: 50%; */
 }
 .Pizza {
   background-color: red;
+  width: 265px;
 }
 .BRoll {
   background-color: green;
-  width: 150px;
+  width: 220px;
 }
 .BArte {
   background-color: yellow;
-  width: 150px;
+  width: 220px;
 }
 .Mexi {
   background-color: darkblue;
-  width: 150px;
+  width: 220px;
 }
 .Cazu {
   background-color: peru;
-  width: 150px;
+  width: 220px;
 }
 .Hambu {
   background-color: purple;
-  width: 150px;
+  width: 220px;
 }
 .Comple {
   background-color: navy;
-  width: 150px;
+  width: 220px;
 }
 .Postre {
   background-color: palegreen;
-  width: 150px;
+  width: 220px;
 }
 /* Menu Movil */
 #nav-menu-pc{
