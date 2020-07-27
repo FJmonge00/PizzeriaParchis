@@ -6,13 +6,26 @@ body, html {
 body {
   background-image: url(images/FondoNegroPizzaMovil.jpg);
   background-image: no-repeat;
-  background-image: fixed;
+  background-image: scroll;
   background-image: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-image: url(images/menu-3206749_1920.jpg);
+    background-image: no-repeat;
+    background-image: scroll;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+  }
 }
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -71,6 +84,15 @@ header {
   display: block;
   box-sizing: inherit;
 }
+footer
+{
+  margin: 10px 0;
+  color: #000;
+  background-color: #fff;
+  padding: 0.01em 16px;
+  display: block;
+  box-sizing: inherit;
+}
 /* Productos*/
   .CuerpoWeb {
     text-align: center;
@@ -87,36 +109,40 @@ header {
   justify-content: center;
   /* margin-left: 50%; */
 }
+.ContenedorProductos div {
+  border-radius: 15px;
+  padding: 5px;
+}
 .Pizza {
-  background-color: red;
+  background-color: #b2c0b3;
   width: 265px;
 }
 .BRoll {
-  background-color: green;
+  background-color: #a07646;
   width: 220px;
 }
 .BArte {
-  background-color: yellow;
+  background-color: #e88b24;
   width: 220px;
 }
 .Mexi {
-  background-color: darkblue;
+  background-color: #b74926;
   width: 220px;
 }
 .Cazu {
-  background-color: peru;
+  background-color: #86291a;
   width: 220px;
 }
 .Hambu {
-  background-color: purple;
+  background-color: #b2c0b3;
   width: 220px;
 }
 .Comple {
-  background-color: navy;
+  background-color: #a07646;
   width: 220px;
 }
 .Postre {
-  background-color: palegreen;
+  background-color: #e88a26;
   width: 220px;
 }
 /* Menu Movil */
