@@ -168,110 +168,135 @@ img {
   width: 100%;
   height: auto;
 }
-
+.llamada {
+  position: fixed;
+  background-color: rgba(255, 255, 0, 0.712);
+  padding: 15px;
+  color: black;
+  left: 90%;
+}
+.llamada a {
+  font-weight: 800;
+  color: black;
+  text-decoration: none;
+  font-size: 1.1em;
+}
 @media screen and (max-width: 480px) {
 
-  .CuerpoWeb {
+    .CuerpoWeb {
+      text-align: center;
+      display: block;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  .ContenedorProductos {
+    margin-top: 12px;
     text-align: center;
-    display: block;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* margin-left: 50%; */
   }
-.ContenedorProductos {
-  margin-top: 12px;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  /* margin-left: 50%; */
-}
-.ContenedorProductos div {
-  border-radius: 15px;
-  font-size: 1.2em;
-  padding: 5px;
-}
-.Pizza {
-  background-color: #b2c0b3;
-  width: 265px;
-}
-.BRoll {
-  background-color: #a07646;
-  width: 220px;
-}
-.BArte {
-  background-color: #e88b24;
-  width: 220px;
-}
-.Mexi {
-  background-color: #b74926;
-  width: 220px;
-}
-.Cazu {
-  background-color: #86291a;
-  width: 220px;
-}
-.Hambu {
-  background-color: #b2c0b3;
-  width: 220px;
-}
-.Comple {
-  background-color: #a07646;
-  width: 220px;
-}
-.Postre {
-  background-color: #e88a26;
-  width: 220px;
-}
-#nav-menu-pc{
-  display: none;
-}
-#nav-menu-movil{
-  width: 210px;
-  display: block;
-  align-items: left;
-  margin-bottom: 35%;
-  
-}
-#nav-menu-movil ul,li{
-  list-style: none;
-}
-#menu-desple *{
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  padding: 10px 15px;
-  display: block;
-  font-weight:bold;
-}
-#menu-desple *:hover{
-  background-color:white;
-  color: black;
-  text-decoration: none;
-  padding: 10px 15px;
-  display: block;
-}
-#menu-desple li ul{
-  display: none;
-  position: absolute;
-  min-width: 110px;
-  border: white solid 2px;
-}
-#menu-desple li:hover > ul {
-  display: block
-}
-#menu-desple > li {
-  float: left;
-  border: white solid 2px;
-}
-.menu ,ul {
-  padding-left: 15px;
-}
-#menu-desple li p {
-  padding: 10 15px;
-}
-#nav-menu {
-  display: none;
-}
+  .ContenedorProductos div {
+    border-radius: 15px;
+    font-size: 1.2em;
+    padding: 5px;
+  }
+  .Pizza {
+    background-color: #b2c0b3;
+    width: 265px;
+  }
+  .BRoll {
+    background-color: #a07646;
+    width: 220px;
+  }
+  .BArte {
+    background-color: #e88b24;
+    width: 220px;
+  }
+  .Mexi {
+    background-color: #b74926;
+    width: 220px;
+  }
+  .Cazu {
+    background-color: #86291a;
+    width: 220px;
+  }
+  .Hambu {
+    background-color: #b2c0b3;
+    width: 220px;
+  }
+  .Comple {
+    background-color: #a07646;
+    width: 220px;
+  }
+  .Postre {
+    background-color: #e88a26;
+    width: 220px;
+  }
+  #nav-menu-pc{
+    display: none;
+  }
+  #nav-menu-movil{
+    width: 210px;
+    display: block;
+    align-items: left;
+    margin-bottom: 35%;
+    
+  }
+  #nav-menu-movil ul,li{
+    list-style: none;
+  }
+  #menu-desple *{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-weight:bold;
+  }
+  #menu-desple *:hover{
+    background-color:white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  #menu-desple li ul{
+    display: none;
+    position: absolute;
+    min-width: 110px;
+    border: white solid 2px;
+  }
+  #menu-desple li:hover > ul {
+    display: block
+  }
+  #menu-desple > li {
+    float: left;
+    border: white solid 2px;
+  }
+  .menu ,ul {
+    padding-left: 15px;
+  }
+  #menu-desple li p {
+    padding: 10 15px;
+  }
+  #nav-menu {
+    display: none;
+  }
+  .llamada {
+    position: fixed;
+    background-color: rgba(255, 255, 0, 0.712);
+    padding: 10px;
+    color: black;
+    left: 10%;
+  }
+  .llamada a {
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
 }
 /* Menu Movil */
