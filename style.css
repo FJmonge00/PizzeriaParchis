@@ -291,5 +291,16 @@ img {
     font-size: 1.1em;
     /* padding: 100%; */
   }
+  body {
+    background-image: url(images/Fondo_italia.jpg);
+    background-image: no-repeat;
+    background-image: scroll;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+  }
 }
 
