@@ -144,10 +144,12 @@ header {
   text-align: center;
   margin: 10px 0;
   color: #000;
-  background-color: #fff;
+  background-color: #ffffffe7;
   padding: 0.01em 16px;
   display: block;
+  width: 100%;
   box-sizing: inherit;
+  font-weight: 800;
 }
 #nav-menu-movil {
   display: none;
@@ -186,6 +188,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* text-decoration: underline; */
     /* margin-left: 50%; */
   }
   .ContenedorProductos div {
@@ -194,35 +197,35 @@ img {
     padding: 5px;
   }
   .Pizza {
-    background-color: #b2c0b3;
-    width: 265px;
+    background-color: rgba(178, 192, 179, 0.533);
+    width: 285px;
   }
   .BRoll {
-    background-color: #a0764688;
+    background-color: rgb(232, 139, 36, 0.533);
     width: 220px;
   }
   .BArte {
-    background-color: #e88b24;
+    background-color: rgb(178, 192, 179, 0.533);
     width: 220px;
   }
   .Mexi {
-    background-color: #b74926;
+    background-color: rgb(183, 73, 38, 0.533);
     width: 220px;
   }
   .Cazu {
-    background-color: #86281aa2;
+    background-color: hsla(8, 68%, 31%, 0.533);
     width: 220px;
   }
   .Hambu {
-    background-color: #b2c0b3;
+    background-color: hsla(32, 39%, 45%, 0.533);
     width: 220px;
   }
   .Comple {
-    background-color: #a07646;
+    background-color: rgb(232, 138, 38, 0.533);
     width: 220px;
   }
   .Postre {
-    background-color: #e88a26;
+    background-color: rgb(160, 118, 70, 0.533);
     width: 220px;
   }
   /* Menu Movil */
@@ -305,6 +308,7 @@ img {
     -o-background-size: cover;
     background-size: cover;
     color: white;
-  } */
-}
+    */
 
+  }
+}
