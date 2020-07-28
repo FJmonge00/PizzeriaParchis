@@ -14,77 +14,85 @@ body {
   background-size: cover;
   color: white;
 }
-  body {
-    background-image: url(images/menu-3206749_1920.jpg);
-    background-image: no-repeat;
-    background-image: scroll;
-    background-image: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
-  }
-    .CuerpoWeb {
-      text-align: center;
-      display: block;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  .ContenedorProductos {
-    margin-top: 25px;
+body {
+  background-image: url(images/menu-3206749_1920.jpg);
+  background-image: no-repeat;
+  background-image: scroll;
+  background-image: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+  .CuerpoWeb {
     text-align: center;
+    display: block;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* margin-left: 50%; */
   }
-  .ContenedorProductos div {
-    border-radius: 15px;
-    padding: 5px;
-    margin: 10px;
-  }
-  .Pizza {
-    background-color: #b2c0b3;
-    font-size: 1.8em;
-    width: 420px;
-  }
-  .BRoll {
-    background-color: #a07646;
-    font-size: 1.8em;
-    width: 420px;
-  }
-  .BArte {
-    background-color: #e88b24;
-    font-size: 1.8em;
-    width: 420px;
-  }
-  .Mexi {
-    background-color: #b74926;
-    font-size: 1.8em;
-    width: 420px;
-  }
-  .Cazu {
-    background-color: #86291a;
-    font-size: 1.8em;
-    width: 420px;
-  }
-  .Hambu {
-    background-color: #b2c0b3;
-    font-size: 1.8em;
-    width: 420px;
-  }
-  .Comple {
-    background-color: #a07646;
-    font-size: 1.8em;
-    width: 420px;
-  }
-  .Postre {
-    background-color: #e88a26;
-    font-size: 1.8em;
-    width: 420px;
-  }
+.ContenedorProductos {
+  margin-top: 25px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-left: 50%; */
+}
+.ContenedorProductos div {
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px;
+}
+.Pizza {
+  background-color: #b2c0b3;
+  font-size: 1.8em;
+  width: 420px;
+}
+.Pizza a{color: white;text-decoration: none;}
+.BRoll {
+  background-color: #a07646;
+  font-size: 1.8em;
+  width: 420px;
+}
+.BRoll a {color: white;text-decoration: none;}
+.BArte {
+  background-color: #e88b24;
+  font-size: 1.8em;
+  width: 420px;
+}
+.BArte a {color: white;text-decoration: none;}
+.Mexi {
+  background-color: #b74926;
+  font-size: 1.8em;
+  width: 420px;
+}
+.Mexi a{color: white;text-decoration: none;}
+.Cazu {
+  background-color: #86291a;
+  font-size: 1.8em;
+  width: 420px;
+}
+.Cazu a{color: white;text-decoration: none;}
+.Hambu {
+  background-color: #b2c0b3;
+  font-size: 1.8em;
+  width: 420px;
+}
+.Hambu a{color: white;text-decoration: none;}
+.Comple {
+  background-color: #a07646;
+  font-size: 1.8em;
+  width: 420px;
+}
+.Comple a{color: white;text-decoration: none;}
+.Postre {
+  background-color: #e88a26;
+  font-size: 1.8em;
+  width: 420px;
+}
+.Postre a{color: white;text-decoration: none;}
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   height: 50%;
@@ -163,30 +171,15 @@ img {
   font-size: 1.1em;
   display: block;
 }
-.BotonVolver {
-  position: fixed;
-  background-color: rgba(255, 255, 0, 0.712);
-  padding: 15px;
-  color: black;
-  left: 92%;
-  top: 30%;
-  border: 2.5px black dotted;
-}
-.BotonVolver a {
-  font-weight: 800;
-  color: black;
-  text-decoration: none;
-  font-size: 1.1em;
-}
 @media screen and (max-width: 480px) {
 
-    .CuerpoWeb {
-      text-align: center;
-      display: block;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+  .CuerpoWeb {
+    text-align: center;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .ContenedorProductos {
     margin-top: 12px;
     text-align: center;
@@ -250,7 +243,7 @@ img {
     background-color: black;
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 6px 11px;
     display: block;
     font-weight:bold;
     font-size: 1.115em;
@@ -258,9 +251,6 @@ img {
   #menu-desple *:hover{
     background-color:white;
     color: black;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
   }
   #menu-desple li ul{
     display: none;
