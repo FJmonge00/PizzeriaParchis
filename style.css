@@ -167,6 +167,9 @@ img {
   left: 90%;
   border: 2.5px black dotted;
 }
+#canvas{
+  border-radius: 15%;
+}
 .llamada a {
   font-weight: 800;
   color: black;
