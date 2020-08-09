@@ -3,7 +3,7 @@ body, html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-body {
+/* body {
   background-image: url(images/FondoNegroPizzaMovil.jpg);
   background-image: no-repeat;
   background-image: scroll;
@@ -13,7 +13,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color: white;
-}
+} */
 body {
   background-image: url(images/menu-3206749_1920.jpg);
   background-image: no-repeat;
@@ -25,13 +25,13 @@ body {
   background-size: cover;
   color: white;
 }
-  .CuerpoWeb {
-    text-align: center;
-    display: block;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.CuerpoWeb {
+  text-align: center;
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .ContenedorProductos {
   margin-top: 25px;
   text-align: center;
@@ -46,49 +46,50 @@ body {
   margin: 10px;
 }
 .Pizza {
-  background-color: #b2c0b3;
+  background-color: hsl(22, 41%, 38%, 0.600);
   font-size: 1.8em;
   width: 420px;
 }
 .Pizza a{color: white;text-decoration: none;}
 .BRoll {
-  background-color: #a07646;
+  background-color: hsl(45, 77%, 67%, 0.600);
+  /* background-color: #a07646; */
   font-size: 1.8em;
   width: 420px;
 }
 .BRoll a {color: white;text-decoration: none;}
 .BArte {
-  background-color: #e88b24;
+  background-color: hsl(2, 66%, 49%, 0.600);
   font-size: 1.8em;
   width: 420px;
 }
 .BArte a {color: white;text-decoration: none;}
 .Mexi {
-  background-color: #b74926;
+  background-color: hsl(45, 77%, 67%, 0.600);
   font-size: 1.8em;
   width: 420px;
 }
 .Mexi a{color: white;text-decoration: none;}
 .Cazu {
-  background-color: #86291a;
+  background-color: hsl(25, 74%, 53%, 0.600);
   font-size: 1.8em;
   width: 420px;
 }
 .Cazu a{color: white;text-decoration: none;}
 .Hambu {
-  background-color: #b2c0b3;
+  background-color: hsl(17, 70%, 51%, 0.600);
   font-size: 1.8em;
   width: 420px;
 }
 .Hambu a{color: white;text-decoration: none;}
 .Comple {
-  background-color: #a07646;
+  background-color: hsl(2, 66%, 49%, 0.600);
   font-size: 1.8em;
   width: 420px;
 }
 .Comple a{color: white;text-decoration: none;}
 .Postre {
-  background-color: #e88a26;
+  background-color: hsl(25, 74%, 53%, 0.600);
   font-size: 1.8em;
   width: 420px;
 }
@@ -174,7 +175,9 @@ img {
   display: block;
 }
 @media screen and (max-width: 480px) {
-
+  #canvas{
+    display: none;
+  }
   .CuerpoWeb {
     text-align: center;
     display: block;
@@ -205,7 +208,7 @@ img {
     width: 220px;
   }
   .BArte {
-    background-color: rgb(178, 192, 179, 0.533);
+    background-color: hsla(124, 10%, 73%, 0.533);
     width: 220px;
   }
   .Mexi {
